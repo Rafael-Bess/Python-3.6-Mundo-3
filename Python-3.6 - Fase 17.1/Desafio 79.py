@@ -1,4 +1,4 @@
-#Uma maneira para fazer validação é usar 2 variaveis lista que recebe numero
+#Uma maneira para fazer a validação é usar 2 variaveis lista que recebe numero
 lista = list()
 while True:
     numero = (int(input('Digite um número: ')))
