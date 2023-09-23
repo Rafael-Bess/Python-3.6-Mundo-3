@@ -1,7 +1,7 @@
 #[LISTAS]
 # A partir do momento que iguala uma lista na outra elas criam uma ligação.
 a = [2,3,4,7]
-b = a #Aqui elas tem ligação uma com a outra
+b = a #Aqui elas tem ligação uma com a outra e se b receber outro número vai substituir na A e na B. forma correta seria fazer uma copia.
 b2 = a[:] #Aqui a lista B está recebendo uma copia de A
 b[2] = 8
 print(f'lista A {a}\nLista B {b}\nLista B2 {b2}')
