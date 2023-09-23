@@ -13,4 +13,3 @@ print(20 * '=-')
 
 print(f'O Menor valor digitado é {menor_valor} nas posições {posicoes_menor[:]}')
 print(f'E o Maior valor digitado é {maior_valor} nas posições {posicoes_maior[:]}')
-D
