@@ -14,3 +14,4 @@ for elemento in lista: # os elementos de listacopia estão sendo percorridos e e
 print(f'A lista completa é {lista}')
 print(f'Os números pares são: {par}')
 print(f'Os números impares são: {impar}')
+
