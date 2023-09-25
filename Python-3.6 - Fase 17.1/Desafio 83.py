@@ -9,3 +9,4 @@ if pilha.count('(') == pilha.count(')'):
     print('A espressão está correta')
 else:
     print('A espressão está errada')
+
