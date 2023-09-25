@@ -14,3 +14,4 @@ if 5 in lista:
     print('O valor 5 está na lista')
 else:
     print('O valor 5 não está na lista')
+
