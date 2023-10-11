@@ -30,4 +30,3 @@ print(f'O menor peso foi de {pesomenor} ')
 for p in pessoas:
     if p[1] == pesomenor:
         print(f'{p[0]} , ', end='')
-
