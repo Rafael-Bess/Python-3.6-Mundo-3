@@ -1,3 +1,12 @@
+'''*O que é uma FUNÇÃO no Python?
+São blocos nomeados de um código designado para fazer um trabalho em específico. Elas permitem que você escreva o código uma vez que
+ poderá ser usado a quantidade de vezes que você precisar para fazer uma mesma função. As funções podem pegar a informação que elas precisam e retornar a informação que elas geram. Então, basicamente é um jeito de tornar os programas fáceis de escrever, ler, testar, e consertar.
+
+
+*Para definir uma função, a primeira linha dela é a sua definição, marcada pela palavra-chave DEF. O nome da função é seguido por um conjunto
+ de parênteses e dois pontos. Uma DOCSTRING, em aspas triplas, descreve o que a função faz. O corpo da função ou o bloco de códigos dela é identado em um nível.'''
+
+
 def lin():
     print('-' * 20)
 
@@ -40,7 +49,7 @@ soma(a=4, b=5)
 
 # simbolo * é utilizado quando não sabemos a qt dos parametros (linha 31)
 # o python após receber varios parametros ele criou uma tupla
-def contador(* num):
+def contador(* num): # Para utilizar inumeros parametros deve ser utilizado *
     tam = len(num)
     print(f'Recebi os valores {num} e são ao todo {tam} numeros')
     for valor in num:
